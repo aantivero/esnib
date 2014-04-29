@@ -1,53 +1,44 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 <div class="container">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1, #bs-example-navbar-collapse-2">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#" style="font-size: 15px; float: left; text-transform: uppercase;">
-            <img src="images/logoIB.png" style="height: 30px">&nbsp;
+        <a class="navbar-brand" scroll-to="" style="font-size: 15px; float: left; text-transform: uppercase;">
+            <img src="images/logoIB.png" style="height: 34px">&nbsp;
             <!--img src="images/PNCalidad.png" style="height: 30px; align:right">&nbsp;
             <img src="images/IberoAmericano_Home.png" style="height: 30px"-->
-             Interbanking - ESN
         </a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
-    </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-        <ul class="nav navbar-nav navbar-left navbar-user">
-            <li><a href="#"><i class="fa fa-users"></i> Foro</a></li>
-            <li><a href="#"><i class="fa fa-bell"></i> Novedades</a></li>
-            <li><a href="#"><i class="fa fa-calendar"></i> Meeting</a></li>
-            <li><a href="#"><i class="fa fa-comments"></i> Chat</a></li>
-
-        </ul>
         <div class="col-sm-4 col-md-4">
             <form class="navbar-form" role="search">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Buscar" name="q">
+                    <input type="text" class="form-control" placeholder="Buscar Foros, Noticias, Temas" name="q">
                     <div class="input-group-btn">
                         <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                     </div>
                 </div>
             </form>
         </div>
-        <ul class="nav navbar-nav  navbar-user">
-            <li>
-                <a href="#"><i class="fa fa-envelope"></i> <span class="badge">2</span> Mensajes</a>
-            </li>
+        <ul class="nav navbar-nav navbar-right navbar-user">
             <li class="dropdown user-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Alejandro Antivero<b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <img ng-src="https://avatars1.githubusercontent.com/u/837690?s=140" class="nav-pic" /> Alejandro Antivero<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#"><i class="fa fa-cogs"></i> Perfil</a></li>
                     <li class="divider"></li>
                     <li><a href="#"><i class="fa fa-power-off"></i> Salir</a></li>
                 </ul>
             </li>
+            <li><a href="#"><i class="fa fa-users"></i></a></li>
+            <li><a href="#"><i class="fa fa-bell"></i></a></li>
+            <li><a href="#"><i class="fa fa-calendar"></i></a></li>
+            <li><a href="#"><i class="fa fa-comments"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i> <span class="badge">2</span></a></li>
         </ul>
     </div>
 </div>

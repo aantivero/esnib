@@ -170,3 +170,12 @@
 .navbar-inverse .navbar-link:hover {
     color: #ffffff;
 }
+
+/* NAV BAR PIC */
+.nav-pic {
+    margin: -2px 5px 0 0;
+    max-height: 30px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}

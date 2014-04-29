@@ -1,7 +1,20 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 120px;
+  /**padding-top: 120px; otros navigation*/
+  padding-top: 60px;
   padding-bottom: 20px;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    text-indent:-9999px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:444px;
+    display:none;
+    background: url('images/icon_top.png') no-repeat;
 }
 
 .navbar .brand{

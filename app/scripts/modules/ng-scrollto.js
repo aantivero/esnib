@@ -32,8 +32,11 @@ angular.module("ngScrollTo",[])
                 var document = $window.document;
 
                 function scrollInto(idOrName, offset) {//find element with the given id or name and scroll to the first element it finds
-                    if(!idOrName) //move to top if idOrName is not provided
-                        $window.scrollTo(0, 0);
+                    if(!idOrName) {
+                      //move to top if idOrName is not provided
+                      //$window.scrollTo(0, 0);
+                      $('html, body').animate({ scrollTop: 0 }, 'slow');  
+                    } 
 
                     //check if an element can be found with id attribute
                     var el = document.getElementById(idOrName);
