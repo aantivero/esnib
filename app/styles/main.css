@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.navbar .brand{
+    max-height: 40px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.navbar a.navbar-brand {padding: 9px 15px 8px; }
+
+/*footer*/
+
+.site-footer {
+    background: #AC1E2A;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.go-top {
+    margin-right: 1%;
+    float: right;
+    background: rgba(255,255,255,.5);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.go-top i {
+    color: #a90329;
+}
+
+.site-min-height {
+    min-height: 900px;
+}
+
