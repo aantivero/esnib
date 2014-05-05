@@ -179,3 +179,11 @@
     -moz-border-radius: 100px;
     border-radius: 100px;
 }
+
+.navbar-collapse .texto-hidden-desktop {
+  display: none;
+}
+
+.navbar-collapse.in .texto-hidden-desktop {
+  display: inline;
+}
