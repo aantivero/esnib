@@ -53,3 +53,7 @@ body {
     min-height: 900px;
 }
 
+.float-none {
+    float: none;
+}
+
